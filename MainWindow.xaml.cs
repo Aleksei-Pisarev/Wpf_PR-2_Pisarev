@@ -24,15 +24,5 @@ namespace Wpf_PR_2_Pisarev
         {
             InitializeComponent();
         }
-
-        private void ToggleButton_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("Состояние кнопки: " + (sender as System.Windows.Controls.Primitives.ToggleButton).IsChecked);
-        }
-
-        private void ToggleButton_Checked(object sender, RoutedEventArgs e)
-        {
-           MessageBox.Show("Состояние кнопки: " + (sender as System.Windows.Controls.Primitives.ToggleButton).IsChecked);
-        }
     }
 }
