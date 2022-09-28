@@ -24,10 +24,5 @@ namespace Wpf_PR_2_Pisarev
         {
             InitializeComponent();
         }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("Кнопка нажатия");
-        }
     }
 }
