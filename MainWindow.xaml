@@ -7,16 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <StackPanel x:Name="starckPanel">
-            <RadioButton GroupName="Boot" x:Name="RadioButton_Boot1" Checked="RadioButton_Checked">Загрузка с жесткого дистка</RadioButton>
-            <RadioButton GroupName="Boot" x:Name="RadioButton_Boot2" Checked="RadioButton_Checked">Загрузка с DVD привода</RadioButton>
-            <RadioButton GroupName="Boot" x:Name="RadioButton_Boot3" Checked="RadioButton_Checked">Установить операционную систему</RadioButton>
-            <RadioButton GroupName="Languages" Content="C#" IsChecked="True" Checked="RadioButton_Checked"/>
-            <RadioButton GroupName="Languages" Content="VB.NET" Checked="RadioButton_Checked"/>
-            <RadioButton GroupName="Languages" Content="C++" Checked="RadioButton_Checked"/>
-            <RadioButton GroupName="TechnoLogies" Content="WPF" Checked="RadioButton_Checked"/>
-            <RadioButton GroupName="TechnoLogies" Content="WinForms" Checked="RadioButton_Checked"/>
-            <RadioButton GroupName="TechnoLogies" Content="ASP.NET" Checked="RadioButton_Checked"/>
-        </StackPanel>
+        <ComboBox SelectedIndex="1">
+            <ComboBoxItem Content="Red" />
+            <ComboBoxItem Content="Green" />
+            <ComboBoxItem Content="Blue" />
+        </ComboBox>
     </Grid>
 </Window>

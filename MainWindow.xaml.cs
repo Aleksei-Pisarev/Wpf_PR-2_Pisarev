@@ -24,11 +24,5 @@ namespace Wpf_PR_2_Pisarev
         {
             InitializeComponent();
         }
-
-        private void RadioButton_Checked(object sender, RoutedEventArgs e)
-        {
-            RadioButton pressed = (RadioButton)sender;
-            MessageBox.Show(pressed.Content.ToString());
-        }
     }
 }
