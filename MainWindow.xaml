@@ -7,13 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <StackPanel>
-            <Button x:Name="button1" Padding="50 30 0 40" HorizontalContentAlignment="Left">
-                Hello world
-            </Button>
-            <Button x:Name="button2" Padding=" 60 20 0 30" HorizontalContentAlignment="Center">
-                Hello World
-            </Button>
-        </StackPanel>
+        <Button Width="60" Height="30" Background="LightGray" FontSize="20" Foreground="DarkRed" Content="Цвет" FontWeight="Bold"/>
+        <TextBlock>
+            <Run FontWeight="Bold">Однажды в студеную зимнюю пору </Run> Я из лесу вышел <LineBreak/>Был сильный мороз</TextBlock>
     </Grid>
 </Window>
